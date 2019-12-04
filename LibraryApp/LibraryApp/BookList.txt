@@ -1,0 +1,12 @@
+The Rainmaker,John Grisham,False
+Black Privilege,Charlamagne tha God,False
+The Alchemist,Paulo Coelho,True
+Choke,Chuck Palahniuk,True
+Harry Potter and The Half Blood Prince,J.K. Rowling,False
+Velocity,Dean Koontz,True
+Goosebumps,R.L. Stine,True
+Fight Club,Chuck Palahniuk,True
+On the Road,Jack Kerouac,True
+The Catcher in the Rye,J.D. Salinger,True
+1984,George Orwell,False
+To the Lighthouse,Virgina Woolf,True

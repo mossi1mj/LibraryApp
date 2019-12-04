@@ -1,0 +1,11 @@
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\bin\Debug\netcoreapp3.0\LibraryApp.exe
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\bin\Debug\netcoreapp3.0\LibraryApp.deps.json
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\bin\Debug\netcoreapp3.0\LibraryApp.runtimeconfig.json
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\bin\Debug\netcoreapp3.0\LibraryApp.runtimeconfig.dev.json
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\bin\Debug\netcoreapp3.0\LibraryApp.dll
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\bin\Debug\netcoreapp3.0\LibraryApp.pdb
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.0\LibraryApp.csprojAssemblyReference.cache
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.0\LibraryApp.AssemblyInfoInputs.cache
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.0\LibraryApp.AssemblyInfo.cs
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.0\LibraryApp.dll
+C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\obj\Debug\netcoreapp3.0\LibraryApp.pdb
