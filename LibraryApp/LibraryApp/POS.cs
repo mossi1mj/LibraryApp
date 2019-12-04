@@ -13,42 +13,26 @@ namespace LibraryApp
             GetCurrentInventory();
             MainMenu();
         }
-
         private static void GetCurrentInventory()
         {
-            //first point the StreamReader object at the text file that holds the current inventory in CSV format
             StreamReader sr = new StreamReader(@"C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\BookList.txt");
-
-            //string that grabs and holds the first line of the CSV text file
             string line = sr.ReadLine();
-
-            //while loop to iterate through the text file of CSV's building inventory List
-            while (line != null)//as long as the first line of the text file is not null then continue with parsing
+            while (line != null)
             {
-                //spilt the CSV on the comma's until we have the sparate values indexed in our string array
                 currentInventory.Add(Book.CSVToBook(line));
-
-                //we advance the CSV text file to the next row of data
                 line = sr.ReadLine();
             }
-
-            //close the text file when done with File I/O operations
             sr.Close();
         }
 
         private static void SaveCurrentInventory()
 
         {
-            //create new streamwriter object
             StreamWriter sw = new StreamWriter(@"C:\Users\mmoss\source\repos\LibraryApp\LibraryApp\LibraryApp\BookList.txt");
-
-            //iterate through our list of books and first make CSV string out of the objects data, and then write that data to the CSV text file
             foreach (Book item in currentInventory)
             {
                 sw.WriteLine(Book.BookToCSV(item));
             }
-
-            //closed the connection saving data to the text file
             sw.Close();
         }
 
@@ -66,7 +50,6 @@ namespace LibraryApp
 
         private static void DisplayCurrentInventory()
         {
-            //iterate through the static List of cars
             foreach (var item in currentInventory)
             {
                 Console.WriteLine(item.Definition());
@@ -102,16 +85,10 @@ namespace LibraryApp
         }
         private static void MainMenu()
         {
-            //establish a bool to control program loop flow
             bool continueProgram = true;
-
-            //while loop to control program flow
             while (continueProgram)
             {
-                //display the Options menu for the User
                 Options();
-
-                //make a string variable that will hold the Users Choice
                 string userChoice = Validator.OptionChoice();
 
                 if (userChoice.ToLower() == "quit" || userChoice == "4")
